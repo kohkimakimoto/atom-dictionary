@@ -2,11 +2,11 @@ spawn = require('child_process').spawn
 
 module.exports = Dictionary =
   activate: (state) ->
-    atom.commands.add('atom-text-editor', {
-      'dictionary:lookup': @lookup,
+    atom.commands.add('.platform-darwin atom-workspace', {
+      'dictionary:look-up': @lookUp,
     })
 
-  lookup: () ->
+  lookUp: () ->
     editor = atom.workspace.getActiveTextEditor()
     return if !editor
 

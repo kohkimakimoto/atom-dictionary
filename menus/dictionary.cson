@@ -3,6 +3,6 @@
   'atom-text-editor': [
     {
       'label': 'Look up in Dictionary'
-      'command': 'dictionary:lookup'
+      'command': 'dictionary:look-up'
     }
   ]

@@ -5,7 +5,7 @@
   "description": "Integrates OSX Dictionary.app with Atom.",
   "activationCommands": {
     "atom-text-editor": [
-      "dictionary:lookup"
+      "dictionary:look-up"
     ]
   },
   "repository": "https://github.com/kohkimakimoto/atom-dictionary",
