@@ -2,7 +2,7 @@
   "name": "dictionary",
   "main": "./lib/dictionary",
   "version": "0.1.0",
-  "description": "A short description of your package",
+  "description": "Integrates OSX Dictionary.app with Atom.",
   "activationCommands": {
     "atom-text-editor": [
       "dictionary:lookup"
