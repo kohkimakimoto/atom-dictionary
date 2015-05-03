@@ -1,0 +1,20 @@
+{
+  "name": "dictionary",
+  "main": "./lib/dictionary",
+  "version": "0.1.0",
+  "description": "A short description of your package",
+  "activationCommands": {
+    "atom-text-editor": [
+      "dictionary:lookup"
+    ]
+  },
+  "repository": "https://github.com/kohkimakimoto/atom-dictionary",
+  "homepage": "https://github.com/kohkimakimoto/atom-dictionary",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+  }
+}
