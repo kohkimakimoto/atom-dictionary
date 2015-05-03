@@ -2,12 +2,12 @@
 
 Integrates OSX Dictionary.app with Atom.
 
-# Usage
+## Usage
 
 You can look up the selected word in Dictionary.app by `CTRL-CMD-K`.
 
-![dictionary](dict.gif)
+![dictionary](https://raw.githubusercontent.com/kohkimakimoto/atom-dictionary/master/dict.gif)
 
-# License
+## License
 
 MIT
