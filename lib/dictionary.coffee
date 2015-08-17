@@ -11,4 +11,6 @@ module.exports = Dictionary =
     return if !editor
 
     selection = editor.getLastSelection().getText()
+    if selection == ''
+      selection = editor. getWordUnderCursor()
     spawn('open', ['dict://' + selection])
